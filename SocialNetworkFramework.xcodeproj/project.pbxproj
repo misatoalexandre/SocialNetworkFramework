@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5339DD1C17FC758B000AC456 /* IMG_4291.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5339DD1B17FC758B000AC456 /* IMG_4291.jpg */; };
 		537B2AA917F8C705001E8673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537B2AA817F8C705001E8673 /* Foundation.framework */; };
 		537B2AAB17F8C705001E8673 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537B2AAA17F8C705001E8673 /* CoreGraphics.framework */; };
 		537B2AAD17F8C705001E8673 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537B2AAC17F8C705001E8673 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		537B2ACA17F8C706001E8673 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537B2AAC17F8C705001E8673 /* UIKit.framework */; };
 		537B2AD217F8C706001E8673 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 537B2AD017F8C706001E8673 /* InfoPlist.strings */; };
 		537B2AD417F8C706001E8673 /* SocialNetworkFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 537B2AD317F8C706001E8673 /* SocialNetworkFrameworkTests.m */; };
+		537B2ADE17F8CB59001E8673 /* transistor-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 537B2ADD17F8CB59001E8673 /* transistor-256.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5339DD1B17FC758B000AC456 /* IMG_4291.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4291.jpg; sourceTree = "<group>"; };
 		537B2AA517F8C705001E8673 /* SocialNetworkFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetworkFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		537B2AA817F8C705001E8673 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		537B2AAA17F8C705001E8673 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,7 @@
 		537B2ACF17F8C706001E8673 /* SocialNetworkFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialNetworkFrameworkTests-Info.plist"; sourceTree = "<group>"; };
 		537B2AD117F8C706001E8673 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		537B2AD317F8C706001E8673 /* SocialNetworkFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialNetworkFrameworkTests.m; sourceTree = "<group>"; };
+		537B2ADD17F8CB59001E8673 /* transistor-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "transistor-256.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 		537B2AAF17F8C705001E8673 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				537B2ADD17F8CB59001E8673 /* transistor-256.png */,
+				5339DD1B17FC758B000AC456 /* IMG_4291.jpg */,
 				537B2AB017F8C705001E8673 /* SocialNetworkFramework-Info.plist */,
 				537B2AB117F8C705001E8673 /* InfoPlist.strings */,
 				537B2AB417F8C705001E8673 /* main.m */,
@@ -228,6 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5339DD1C17FC758B000AC456 /* IMG_4291.jpg in Resources */,
+				537B2ADE17F8CB59001E8673 /* transistor-256.png in Resources */,
 				537B2AC117F8C705001E8673 /* Images.xcassets in Resources */,
 				537B2AB317F8C705001E8673 /* InfoPlist.strings in Resources */,
 				537B2ABC17F8C705001E8673 /* Main.storyboard in Resources */,
@@ -454,6 +462,7 @@
 				537B2AD917F8C706001E8673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		537B2ADA17F8C706001E8673 /* Build configuration list for PBXNativeTarget "SocialNetworkFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +471,7 @@
 				537B2ADC17F8C706001E8673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

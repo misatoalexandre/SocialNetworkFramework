@@ -25,5 +25,23 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)backgroundTap:(id)sender {
+    [self.textView resignFirstResponder];
+}
+
+
+- (IBAction)sahreButton:(id)sender {
+    [self.textView resignFirstResponder];
+    //[self messageLine:@"Post Message"];
+    [self share];
+}
+
+-(void) share{
+    NSString *text=@"Nice";
+    UIImage *image=[UIImage imageNamed:@"IMG_4291.jpg"];
+    NSArray *activitiesItem=@[text, image];
+    UIActivityViewController *avc=[[UIActivityViewController alloc]initWithActivityItems:activitiesItem applicationActivities:nil];
+    [self presentViewController:avc animated:YES completion:nil];
+}
 
 @end

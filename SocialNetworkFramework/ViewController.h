@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *textView;
+- (IBAction)sahreButton:(id)sender;
+- (IBAction)backgroundTap:(id)sender;
 
 @end
